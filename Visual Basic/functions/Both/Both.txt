@@ -1,0 +1,20 @@
+Both has no VB equivelent.  To use this use the vb command word: And
+
+Example
+
+if @both(@greater(%x,%y),@greater(%y,%z))
+info Greater
+else
+end
+
+If x > y And y > z Then
+MsgBox "Greater"
+Else
+End If
+
+In addition you can use MULTIPLE And statements
+
+If w > x And x > y And y > z Then
+MsgBox "Greater"
+Else
+End If

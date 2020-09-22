@@ -1,0 +1,5 @@
+rem must include pos.bas
+Private Sub Command1_Click()
+checkpos = Pos("a", "blah")
+MsgBox checkpos
+End Sub

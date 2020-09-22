@@ -1,0 +1,6 @@
+rem requires window.bas
+Private Sub Command1_Click()
+rem must include window handle and control name
+WindowSend "Notepad", "Edit", "I like Beans"
+End Sub
+

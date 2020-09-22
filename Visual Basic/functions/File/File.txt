@@ -1,0 +1,91 @@
+Private Sub Command1_Click()
+AtFile = "c:\windows\notepad.exe"
+On Error GoTo notfound:
+x = GetAttr(AtFile)
+MsgBox x
+If x = 32 Then
+a = 1
+r = 0
+h = 0
+s = 0
+ElseIf x = 1 Then
+a = 0
+r = 1
+h = 0
+s = 0
+ElseIf x = 2 Then
+a = 0
+r = 0
+h = 1
+s = 0
+ElseIf x = 4 Then
+a = 0
+r = 0
+h = 0
+s = 1
+ElseIf x = 33 Then
+a = 1
+r = 1
+h = 0
+s = 0
+ElseIf x = 34 Then
+a = 1
+r = 0
+h = 1
+s = 0
+ElseIf x = 36 Then
+a = 1
+r = 0
+h = 0
+s = 1
+ElseIf x = 3 Then
+a = 0
+r = 1
+h = 1
+s = 0
+ElseIf x = 5 Then
+a = 0
+r = 1
+h = 0
+s = 1
+ElseIf x = 6 Then
+a = 0
+r = 0
+h = 1
+s = 1
+ElseIf x = 38 Then
+a = 1
+r = 0
+h = 1
+s = 0
+ElseIf x = 7 Then
+a = 0
+r = 1
+h = 1
+s = 1
+ElseIf x = 35 Then
+a = 1
+r = 1
+h = 1
+s = 0
+ElseIf x = 37 Then
+a = 1
+r = 1
+h = 0
+s = 1
+ElseIf x = 39 Then
+a = 1
+r = 1
+h = 1
+s = 1
+ElseIf x = 0 Then
+a = 0
+r = 0
+h = 0
+s = 0
+End If
+MsgBox "a" & a & "r" & r & "h" & h & "s" & s
+Exit Sub
+notfound:
+MsgBox "File Not Found"
+End Sub 

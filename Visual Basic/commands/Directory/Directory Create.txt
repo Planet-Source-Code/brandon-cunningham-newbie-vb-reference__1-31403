@@ -1,0 +1,1 @@
+MkDir "C:\Windows\The New Directory"

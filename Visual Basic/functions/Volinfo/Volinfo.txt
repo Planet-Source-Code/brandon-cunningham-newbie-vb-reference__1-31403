@@ -1,0 +1,36 @@
+REM MUST INCLUDE DMDISK.CTL
+
+rem disk free space in kb
+    X = Format(DMDiskInfo1.DMGetFreeDiskSpace("c:\") / 1024, "#,#")
+    MsgBox X
+
+rem volume name
+x = DMDiskInfo1.DMGetVolumeName("c:\")
+
+rem return total space on the drive
+X = Format(DMDiskInfo1.DMGetDiskCapacity("c:\") / 1024, "#,#")
+    MsgBox X
+
+rem return volume type
+    Select Case DMDiskInfo1.DMGetDriveType("c:\")
+        Case DM_DRIVE_UNKNOWN
+            DInfo(6).Caption = "Unknown Device"
+        Case DM_REMOVABLE
+            DInfo(6).Caption = "Removable"
+        Case DM_FIXED
+            DInfo(6).Caption = "Fixed"
+        Case DM_REMOTE
+            DInfo(6).Caption = "Remote"
+        Case DM_CDROM
+            DInfo(6).Caption = "CD-ROM"
+        Case DM_RAMDISK
+            DInfo(6).Caption = "RAM-DISK"
+        End Select
+
+rem get file system
+x = DMDiskInfo1.DMGetFileSysType("c:\")
+
+rem get seriel number
+ ser = Hex(DMDiskInfo1.DMGetSerialNumber("c:\"))
+    StrA = Left(ser, 4): StrB = Right(ser, 4) ' Just used this to make the disk serial number look real
+    x = StrA & "-" & StrB

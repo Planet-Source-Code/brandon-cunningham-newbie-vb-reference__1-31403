@@ -1,0 +1,5 @@
+rem Must include strins.bas
+Private Sub Command1_Click()
+x = strins("I like cats", 4, "I like dogs")
+MsgBox x
+End Sub

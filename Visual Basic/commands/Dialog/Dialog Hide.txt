@@ -1,0 +1,3 @@
+Form1.Hide
+
+CommandButton1.Hide

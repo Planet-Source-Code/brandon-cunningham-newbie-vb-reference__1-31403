@@ -1,0 +1,2 @@
+rem Must include Wait.bas
+Wait 0.1

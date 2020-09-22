@@ -1,0 +1,5 @@
+rem Must include Window Activate.bas
+WindowActivateByName "Notepad"
+
+WindowActivateByTitle "Form1.frm - Notepad"
+

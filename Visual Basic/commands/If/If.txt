@@ -1,0 +1,5 @@
+If Brandon = Christy Then
+rem True
+else
+rem False
+end if

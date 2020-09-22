@@ -1,0 +1,2 @@
+rem Must include registry.bas
+DeleteKey "KeyName", "MainKeyHandle"

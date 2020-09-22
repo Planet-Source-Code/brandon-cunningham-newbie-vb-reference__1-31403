@@ -1,0 +1,4 @@
+Private Sub Command1_Click()
+X = Trim$("  I Like Beans  ")
+MsgBox "x" & X & "x"
+End Sub

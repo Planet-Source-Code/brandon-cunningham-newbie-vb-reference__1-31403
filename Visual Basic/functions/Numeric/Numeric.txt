@@ -1,0 +1,8 @@
+Private Sub Command1_Click()
+x = "5"
+If IsNumeric(x) Then
+MsgBox "Numeric"
+Else
+MsgBox "text"
+End If
+End Sub

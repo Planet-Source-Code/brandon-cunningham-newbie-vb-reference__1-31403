@@ -1,0 +1,7 @@
+rem Must include registry.bas
+
+rem to write string value
+SetStringValue "RegFolder", "StringName", "StringCall"
+
+rem to write binary value or dword value
+SetBinaryValue "RegFolder", "StringName", "StringCall"

@@ -1,0 +1,2 @@
+rem must include name.bas
+thename = namex("c:\windows\notepad.exe")

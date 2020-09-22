@@ -1,0 +1,46 @@
+Private Sub Command1_Click()
+Dim FileName As String
+FileName = "c:\windows\notepad.exe"
+
+    Dim TempStr As String
+    Dim Return_ As String
+    TempStr = Right(FileName, 2)
+
+
+    If Left(TempStr, 1) = "." Then
+        Return_ = Right(FileName, 1)
+        MsgBox Return_
+        Exit Sub
+            Else
+        TempStr = Right(FileName, 3)
+
+
+        If Left(TempStr, 1) = "." Then
+            Return_ = Right(FileName, 2)
+            MsgBox Return_
+        Exit Sub
+        Else
+            TempStr = Right(FileName, 4)
+
+
+            If Left(TempStr, 1) = "." Then
+                Return_ = Right(FileName, 3)
+                MsgBox Return_
+        Exit Sub
+            Else
+                TempStr = Right(FileName, 5)
+
+
+                If Left(TempStr, 1) = "." Then
+                    Return_ = Right(FileName, 4)
+                    MsgBox Return_
+        Exit Sub
+                Else
+                    Return_ = "Unknown"
+                    MsgBox Return_
+                        End If
+            End If
+        End If
+    End If
+    
+        End Sub

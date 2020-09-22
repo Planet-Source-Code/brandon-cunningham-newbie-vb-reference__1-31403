@@ -1,0 +1,4 @@
+If Not x = vbNullString Then
+MsgBox "Null"
+Else
+EndIf

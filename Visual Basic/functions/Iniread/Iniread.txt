@@ -1,0 +1,3 @@
+Rem Must include inifile.bas !
+Dim Read As String
+Read = Iniread("Scrollbar", "value")

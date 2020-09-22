@@ -1,0 +1,2 @@
+File1.Pattern = "*.lnk"
+File1.Path = "C:\windows\desktop\"

@@ -1,0 +1,4 @@
+REM Must include match.bas
+ExactMatch List1, "Beans"
+FirstMatch List1, "Beans"
+NextMatch List1, "Beans"

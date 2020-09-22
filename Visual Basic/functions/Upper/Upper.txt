@@ -1,0 +1,1 @@
+x = UCASE("i like beans")

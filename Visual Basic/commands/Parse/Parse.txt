@@ -1,0 +1,4 @@
+rem Should be able to tell that arrAnimals is auto split into enumerated vars and StrAnimals is string being split, "," is fieldsep, being ,
+
+arrAnimals = Split(strAnimals, ",")
+Write #1, arrAnimals(0), arrAnimals(1), arrAnimals(2), arrAnimals(3), arrAnimals(4)

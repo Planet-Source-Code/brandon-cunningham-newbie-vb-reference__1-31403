@@ -1,0 +1,2 @@
+Rem Make popup menu as you would a file menu, uncheck visible to call use
+Call PopupMenu(File)

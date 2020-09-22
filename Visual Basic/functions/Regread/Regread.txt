@@ -1,0 +1,5 @@
+rem Must include registry.bas
+Private Sub Command6_Click()
+x = GetStringValue("HKEY_CURRENT_USER\AppEvents", "Beans")
+MsgBox x
+End Sub

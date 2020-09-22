@@ -1,0 +1,3 @@
+REM Must include List.bas
+ListAssign List1, List2
+Rem assigns list1 to list2

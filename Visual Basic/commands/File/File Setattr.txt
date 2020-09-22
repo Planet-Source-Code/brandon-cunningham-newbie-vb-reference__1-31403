@@ -1,0 +1,12 @@
+rem FileName is a string, so use quotes if not using variables.
+Dim FileName As String
+
+SetAttr FileName, vbHidden
+
+SetAttr FileName, vbReadOnly
+
+SetAttr FileName, vbSystem
+
+SetAttr FileName, vbNormal
+
+rem Normal = Archive?

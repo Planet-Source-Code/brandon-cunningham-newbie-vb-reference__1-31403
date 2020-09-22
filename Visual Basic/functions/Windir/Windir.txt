@@ -1,0 +1,7 @@
+Rem Must include winactive.bas, also only works with window ID #
+Private Sub Command1_Click()
+x = WinDir(False) ' return windir w/o slash
+MsgBox x
+y = WinDir(True) ' return windir w slash
+MsgBox y
+End Sub

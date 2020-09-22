@@ -1,0 +1,5 @@
+REM Must include path.bas
+Private Sub Command1_Click()
+x = Path("c:\windows\notepad.exe", "\", True)
+MsgBox x
+End Sub
