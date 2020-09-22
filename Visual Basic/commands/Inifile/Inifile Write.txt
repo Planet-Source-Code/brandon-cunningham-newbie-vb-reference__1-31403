@@ -1,0 +1,3 @@
+Rem Must include inifile.bas !
+Dim x As Boolean
+x = InifileWrite("Scrollbar", "value", VScroll1.Value)

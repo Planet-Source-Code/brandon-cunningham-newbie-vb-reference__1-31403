@@ -1,0 +1,12 @@
+Private Sub Command1_Click()
+CommonDialog1.DialogTitle = "Beans!"
+CommonDialog1.Filter = "Text File|*.txt|All Files|*.*"
+CommonDialog1.FilterIndex = 2
+CommonDialog1.ShowSave
+FileName = CommonDialog1.FileName
+If FileName = "" Then
+MsgBox "No file"
+Else
+MsgBox FileName
+End If
+End Sub

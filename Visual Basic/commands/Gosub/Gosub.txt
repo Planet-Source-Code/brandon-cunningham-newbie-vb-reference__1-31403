@@ -1,0 +1,8 @@
+Private Sub Command1_Click()
+GoSub Brandon:
+MsgBox "Done"
+Exit Sub
+Brandon:
+MsgBox "Brandon"
+Return
+End Sub

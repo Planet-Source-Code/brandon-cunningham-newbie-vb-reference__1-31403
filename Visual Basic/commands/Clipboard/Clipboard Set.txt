@@ -1,0 +1,2 @@
+  Clipboard.SetText Form1.ActiveControl.SelText 'set the clipboard text to
+  ' the forms active control's Selected Text

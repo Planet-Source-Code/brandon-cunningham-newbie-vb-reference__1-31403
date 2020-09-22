@@ -1,0 +1,2 @@
+Dim Datetime As String
+Datetime = Date & Chr(32) & Time

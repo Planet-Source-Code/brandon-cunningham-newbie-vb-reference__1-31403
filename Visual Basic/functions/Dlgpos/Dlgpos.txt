@@ -1,0 +1,4 @@
+Top = Command1.Top
+Left = Command1.Left
+Width = Command1.Width
+Height = Command1.Height

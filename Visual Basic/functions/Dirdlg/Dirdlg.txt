@@ -1,0 +1,1 @@
+Directory = Dirdlg("c:\windows", Me.hwnd, "&Select a directory:")

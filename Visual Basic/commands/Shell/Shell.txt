@@ -1,0 +1,2 @@
+Rem Must include Shell.bas
+Shell "Open", "c:\windows\notepad.exe", "c:\autoexec.bat"

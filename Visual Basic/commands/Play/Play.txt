@@ -1,0 +1,2 @@
+rem Must include playsound.bas
+PlaySound "c:\windows\media\chimes.wav"

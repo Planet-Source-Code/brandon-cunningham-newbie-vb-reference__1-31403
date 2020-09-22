@@ -1,0 +1,18 @@
+Private Sub Command1_Click()
+
+Dim retval As String
+
+retval = Dir$("c:\vbfiles\b.txt")
+
+If retval = "b.txt" Then
+
+MsgBox "b.txt exists--no need to copy it..."
+
+Else
+
+FileCopy "c:\vbfiles\a.txt", "c:\vbfiles\b.txt"
+
+End If
+
+End Sub
+

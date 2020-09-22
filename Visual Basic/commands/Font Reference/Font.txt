@@ -1,0 +1,22 @@
+Private Sub Command1_Click ()
+   ' Set Cancel to True.
+   CommonDialog1.CancelError = True
+   On Error GoTo ErrHandler
+   ' Set the Flags property.
+   CommonDialog1.Flags = cdlCFBoth Or cdlCFEffects
+   ' Display the Font dialog box.
+   CommonDialog1.ShowFont 
+   ' Set text properties according to user's 
+   ' selections.
+   Text1.Font.Name = CommonDialog1.FontName
+   Text1.Font.Size = CommonDialog1.FontSize
+   Text1.Font.Bold = CommonDialog1.FontBold
+   Text1.Font.Italic = CommonDialog1.FontItalic
+   Text1.Font.Underline = CommonDialog1.FontUnderline
+   Text1.FontStrikethru = CommonDialog1.FontStrikethru
+   Text1.ForeColor = CommonDialog1.Color
+   Exit Sub
+ErrHandler:
+   ' User pressed Cancel button.
+   Exit Sub
+End Sub

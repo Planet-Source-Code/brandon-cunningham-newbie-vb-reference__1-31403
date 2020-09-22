@@ -1,0 +1,5 @@
+Format (x, "Currency") 'Display number with dollar sign, thousands separator, and two digits to the right of the decimal point.
+Format (x, "Fixed") 'Display number with at least one digit to the left and two digits to the right of the decimal point.
+Format (x, "Standard") 'Display number with thousands seperator and at least one digit to the left and two digits to the right of the decimal point.
+Format (x, "Percent") 'Display number multiplied by 100 with a percent sign (%) on the right and two digits to the right of the decimal point.
+Format (x, "Scientific") 'Use standard scientific notation

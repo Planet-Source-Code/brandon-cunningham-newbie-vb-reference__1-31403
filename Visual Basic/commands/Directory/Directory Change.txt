@@ -1,0 +1,9 @@
+Private Sub Command3_Click()
+
+ChDrive ("d")
+
+ChDir "\vbfiles"
+
+MsgBox "The current directory is " & CurDir
+
+End Sub

@@ -1,0 +1,5 @@
+Rem must include text.bas
+Private Sub Command1_Click()
+X = textoflist(List1)
+MsgBox X
+End Sub

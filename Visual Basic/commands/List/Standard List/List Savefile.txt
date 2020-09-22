@@ -1,0 +1,6 @@
+Dim lngSave As Long
+    Open "c:\windows\desktop\whattext.txt" For Output As #1
+        For lngSave& = 0 To List1.ListCount - 1
+            Print #1, List.List(lngSave&)
+        Next lngSave&
+    Close #1

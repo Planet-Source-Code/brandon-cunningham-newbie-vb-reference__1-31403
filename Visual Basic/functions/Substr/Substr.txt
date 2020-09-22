@@ -1,0 +1,6 @@
+Rem must include substr.bas
+Private Sub Command1_Click()
+Rem Works differently than VDS, 7 is starting pos, then counts back 4 and returns string
+x = substr("Christy is a great wife", 7, 4)
+MsgBox x
+End Sub

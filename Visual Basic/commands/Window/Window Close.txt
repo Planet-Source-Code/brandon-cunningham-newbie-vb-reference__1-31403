@@ -1,0 +1,5 @@
+rem requires window.bas
+
+WindowClose "Notepad"
+
+WindowCloseByTitle "Untitled - Notepad"

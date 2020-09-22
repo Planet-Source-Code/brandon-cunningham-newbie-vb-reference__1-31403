@@ -1,0 +1,16 @@
+Private Sub Command1_Click()
+x = MsgBox("Do you like beans?", vbYesNo)
+MsgBox x
+
+If x = 6 Then
+Answer = "Yes"
+Else
+End If
+
+If x = 7 Then
+Answer = "No"
+Else
+End If
+
+MsgBox Answer
+End Sub

@@ -1,0 +1,5 @@
+rem Must include strdel.bas
+Private Sub Command1_Click()
+blah = strdel("I can't believe it's not butter", 4, 8)
+MsgBox blah
+End Sub

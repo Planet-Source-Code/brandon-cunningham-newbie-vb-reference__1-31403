@@ -1,0 +1,1 @@
+FileCopy "Source.exe", "Destination.exe"

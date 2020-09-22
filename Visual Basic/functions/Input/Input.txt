@@ -1,0 +1,1 @@
+x = InputBox("Insert Input", "Input Title", "Default Text", 10, 20) '10 = x 20 =y

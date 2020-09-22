@@ -1,0 +1,6 @@
+Private Sub Command1_Click()
+GoTo Brandon:
+MsgBox "You won't see me!"
+Brandon:
+MsgBox "I am Brandon!"
+End Sub

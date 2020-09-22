@@ -1,0 +1,23 @@
+Err Object
+To help out programmers, VB6 now provides a built-in object called "Err". On occurrence of an error, VB fills the properties of the Err object with information that uniquely identifies the error and with information that you can use in your code to figure out what actions to take as a result of the error. A bit further in this tutorial, I list the complete list of the Err object's properties and methods. It has no events. 
+
+The Err object's properties are reset to zero or zero-length strings ("") after an Exit Sub, Exit Function, Exit Property or Resume Next statement within an error-handling routine. Using any form of the Resume statement outside of an error-handling routine will not reset the Err object's properties. The Clear method can be used to explicitly reset Err. 
+
+The Err object is a recent VB feature. In older versions the Error statement was available (still is, for backward compatibility) and was used to have VB simulate an error. The Err.Raise method is now the preferred approach. 
+
+For test purposes, you can even cause VB to simulate an error. To do so, use the Raise method as described below. 
+
+The full list of Err object properties is:
+
+
+Description
+
+HelpContext
+
+HelpFile
+
+LastDLLError
+
+Number
+
+Source

@@ -1,0 +1,1 @@
+Haven't found it yet LoL, spent an hour.  May be better to make VDS exe and dynamically exchange data through inifile

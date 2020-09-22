@@ -1,0 +1,3 @@
+REM MUST INCLUDE INIFILE.BAS !!  Inifile must be located in @path(%0) or Bas file must be modified.
+Dim IniFile as String
+InifileOpen = "MyIniFile.ini"
